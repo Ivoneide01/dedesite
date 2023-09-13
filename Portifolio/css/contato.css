@@ -4,7 +4,7 @@
 
 #contato {
     grid-area: contato;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/testedoces.jpg');
+    background: url('/img/papeldeparede/testedoces.jpg');
 
     
 }
@@ -15,7 +15,7 @@
     max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/teste.jpg');
+    background: url('/img/papeldeparede/teste.jpg');
     
 }
 
@@ -23,7 +23,7 @@
     text-align: center;
     color: #f2f7ff;
     font-size: 40px;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/docesdiversos.jpg');
+    background: url('/img/papeldeparede/docesdiversos.jpg');
 }
 
 #contato .titulo-contato {
