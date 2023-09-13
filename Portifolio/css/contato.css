@@ -31,13 +31,13 @@
     background-repeat: repeat;
     background-position: center;
     padding: 5px;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/doces.jpg');
+    background: url('/img/papeldeparede/doces.jpg');
 }
 
 #contato .box-contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/teste.jpg');
+    background: url('/img/papeldeparede/teste.jpg');
     
 }
 
@@ -47,7 +47,7 @@
     text-align: left;
     max-width: 300px;
     background-color: black;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/teste.jpg');
+    background: url('/img/papeldeparede/teste.jpg');
 }
 
 .sec.dark #contato .info-contact {
