@@ -5,7 +5,7 @@
 #portfolio {
     grid-area: portfolio;
     display: grid;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/doces.jpg');
+    background: url('/img/papeldeparede/doces.jpg');
     background-repeat: repeat;
 }
 
@@ -17,7 +17,7 @@
     max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
-    background: url('/Site-Avatar-nid/site-avatar/site-avatar/portifolio-nid/Portifolio/img/papeldeparede/doces.jpg');
+    background: url('/img/papeldeparede/doces.jpg');
     background-repeat: repeat;
 }
 
