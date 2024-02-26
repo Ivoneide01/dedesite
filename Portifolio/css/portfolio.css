@@ -32,6 +32,7 @@
     background-repeat: repeat;
     background-position: center;
     padding: 5px;
+    background-image: url('/Portifolio/img/sodoces.jpg');
 }
 
 .img-container {
@@ -97,7 +98,6 @@
     position: fixed;
     top: 0;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
     width: 100%;
     display: none;
     right: 0;
