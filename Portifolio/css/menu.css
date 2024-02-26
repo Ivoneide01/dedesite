@@ -2,7 +2,7 @@
 /*NAVEGACAO*/
 header {
     padding: 2px 15px;
-    background: url('');
+    background: url('/img/azuldoces.jpg');
     background-repeat: repeat;
     position: fixed;
     backdrop-filter: blur(20px);

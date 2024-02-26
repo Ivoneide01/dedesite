@@ -5,12 +5,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
+    justify-items: normal;
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
-    background: url('#');
-    background-repeat: repeat;
+    background: url('/img/sodoces.jpg');
+    
 
 }
 #home h1 {
