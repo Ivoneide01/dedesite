@@ -28,7 +28,7 @@
 }
 
 #sobre .titulo-sobre {
-    background: url('/Portifolio/img/dede.jpg'); 
+    background: url('img/dede.jpg'); 
     background-repeat: repeat;
     background-position: center;
     padding-top: 14%;
