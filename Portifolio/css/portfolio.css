@@ -5,7 +5,7 @@
 #portfolio {
     grid-area: portfolio;
     display: grid;
-    background: url('doces.jpg');
+    background: url('/Portifolio/img/sodoces.jpg');
     background-repeat: repeat;
 }
 
