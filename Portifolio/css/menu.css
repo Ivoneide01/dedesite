@@ -2,7 +2,7 @@
 /*NAVEGACAO*/
 header {
     padding: 2px 15px;
-    background: url('/img/papeldeparede/teste.jpg');
+    background: url('');
     background-repeat: repeat;
     position: fixed;
     backdrop-filter: blur(20px);
