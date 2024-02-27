@@ -11,9 +11,11 @@
 
 #servicos .container {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     max-width: 1120px;
-    margin: 0 auto;
+    grid-gap: 10px;
+    margin-right: auto;
     background: url('/img/papeldeparede/teste.jpg');
     background-repeat: repeat;
 }
