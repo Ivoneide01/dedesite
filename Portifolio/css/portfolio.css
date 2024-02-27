@@ -37,12 +37,20 @@
 
 .img-container {
     position: relative;
+    
+
+    
 }
 
 .img-container .img_gallery  {
-    width: 100%;
-    display: block;
-    height: auto;
+
+        width: 400px; /* largura desejada */
+        height: 550px; /* altura desejada */
+        border: 2px solid black; /* largura, estilo e cor da borda */
+        border-radius: 100px; /* raio de curvatura para a borda */
+    
+    
+
 }
 
 .boxImg {
@@ -58,6 +66,8 @@
     transition: opacity 1s ease;
     color: #f2f7ff;
     opacity: 0;
+    border: 15px solid #f2f7ff; /* largura, estilo e cor da borda */
+    border-radius: 15px; /* raio de curvatura para a borda */
 }
 
 .img-container:hover .boxImg {

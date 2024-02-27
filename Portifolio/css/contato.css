@@ -23,14 +23,14 @@
     text-align: center;
     color: #f2f7ff;
     font-size: 40px;
-    background: url('/Portifolio/img/telazul.jpg');
+    background: url('/img/telazul.jpg');
 }
 
 #contato .titulo-contato {
     
     background-repeat: repeat;
     background-position: center;
-    background: url('/Portifolio/img/azul.2jpg.jpg');
+    background: url('/img/azul.2jpg.jpg');
 }
 
 #contato .box-contact {
