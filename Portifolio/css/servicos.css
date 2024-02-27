@@ -13,10 +13,11 @@
     display: grid;
     width: 100%;
     max-width: 1120px;
-    grid-gap: 10px;
-    margin-right: auto;
+    margin: 0 auto;
     background: url('/img/papeldeparede/teste.jpg');
     background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #servicos h2 {
