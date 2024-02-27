@@ -22,6 +22,7 @@
     text-align: center;
     color: #f2f7ff;
     font-size: 40px;
+    
 }
 
 #servicos .titulo-servicos {
@@ -29,6 +30,7 @@
     background-repeat: repeat;
     background-position: center;
     padding: 5px;
+    background: url('/img/azul.2jpg.jpg');
 }
 
 #servicos .box-servicos {
