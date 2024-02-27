@@ -126,6 +126,14 @@ main {
     
 }
 
+@media (max-width: 1150px) {
+    .img-sobre img{
+        height: 50px;
+        width: 50px;
+    }   
+    
+}
+
     
 
 
