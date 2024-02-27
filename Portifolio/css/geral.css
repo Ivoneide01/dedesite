@@ -40,7 +40,7 @@ ul {
 
 main {
     display: grid;
-    background: url('/Portifolio/img/telazul.jpg');
+    background: url('/img/telazul.jpg');
     transition: 0.5s;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "header header header header" "home home home home" "sobre sobre sobre sobre" "portfolio portfolio portfolio portfolio" "servicos servicos servicos servicos" "contato contato contato contato" "footer footer footer footer";
