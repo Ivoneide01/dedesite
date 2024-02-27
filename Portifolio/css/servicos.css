@@ -44,11 +44,11 @@ p {
 }
 
 .sec.dark #servicos h3 {
-    color: #09090A;
+    color: #eeee11;
 }
 
 .sec.dark #servicos p {
-    color: #09090A;
+    color: #efef0c;
 }
 
 .post {
@@ -66,7 +66,7 @@ p {
 }
 
 #servicos .box-servicos .box {
-    background: #121214;
+    background: url('/img/azul.jpg');
     color: #f2f7ff;
     box-sizing: border-box;
     overflow: hidden;
@@ -96,7 +96,7 @@ p {
 
 .sec.dark #servicos .box-servicos .box {
     background: rgba(224, 224, 224, 0.5);
-    color: #09090A;
+    color: #e1f005;
 }
 
 .sec.dark #servicos .box-servicos .box:hover h3 {

@@ -15,7 +15,7 @@ body {
 
 ::-webkit-scrollbar {
     width: 12px;
-    background: rgb(12, 12, 12);
+    background: rgb(0, 0, 0);
 }
 
 .sec.dark body {
@@ -40,7 +40,7 @@ ul {
 
 main {
     display: grid;
-    background-color: black;
+    background: url('/Portifolio/img/telazul.jpg');
     transition: 0.5s;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "header header header header" "home home home home" "sobre sobre sobre sobre" "portfolio portfolio portfolio portfolio" "servicos servicos servicos servicos" "contato contato contato contato" "footer footer footer footer";
