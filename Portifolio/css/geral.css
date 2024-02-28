@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+
     
 
 }
@@ -50,6 +51,159 @@ main {
     background: url('/img/telazul.jpg');
 }
 
+#nav {
+    position: relative; /* Garante que o nav seja o contexto de posicionamento */
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding-top: 19px;
+    position: relative; /* Posicionamento relativo para os filhos absolutos */
+}
+
+#menu li {
+    position: relative; /* Posicionamento relativo para os links */
+}
+
+#menu a {
+    display: block;
+    text-align: center;
+    color: blue;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 5px 10px;
+}
+
+#menu a:hover {
+    color: #f2f7ff; /* Altera a cor do texto ao passar o mouse */
+}
+
+.highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg, #0eb4ba, #09090A);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#menu li:nth-child(1):hover ~ .highlight {
+    left: 0px;
+}
+
+#menu li:nth-child(2):hover ~ .highlight {
+    left: 90px;
+}
+
+#menu li:nth-child(3):hover ~ .highlight {
+    left: 180px;
+}
+
+#menu li:nth-child(4):hover ~ .highlight {
+    left: 275px;
+}
+
+/* Estilos para o link de contato e outros links com abbr */
+abbr,
+#contato a {
+    color: #f2f7ff;
+}
+
+/* Resetando estilos do usuário */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+#nav {
+    position: relative;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding-top: 19px;
+    position: relative;
+}
+
+#menu li {
+    position: relative;
+}
+
+#menu a {
+    display: block;
+    text-align: left;
+    color: rgb(3, 3, 3);
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 10px 10px;
+    position: relative; /* Para que z-index funcione */
+    z-index: 1; /* Mantém os links na frente do elemento .highlight */
+}
+
+#menu a:hover {
+    color: #070707;
+}
+
+.highlight {
+    position: absolute;
+    top: 0;
+    left: 8%; /* Começa no meio */
+    transform: translateX(-50%); /* Move metade da largura do elemento para a esquerda */
+    width: 95px;
+    height: 120%;
+    background: linear-gradient(45deg, #f8f8f8, #1dd2db, #f8f8f8 );
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: 0; /* Coloca o elemento .highlight atrás dos links */
+}
+
+#menu li:nth-child(1):hover ~ .highlight {
+    left: 20px;
+}
+
+#menu li:nth-child(2):hover ~ .highlight {
+    left: 120px;
+}
+
+#menu li:nth-child(3):hover ~ .highlight {
+    left: 220px;
+}
+
+#menu li:nth-child(4):hover ~ .highlight {
+    left: 310px;
+}
+
+/* Estilos para o link de contato e outros links com abbr */
+abbr,
+#contato a {
+    color: #f2f7ff;
+}
+
+/* Resetando estilos do usuário */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
 
 
 
@@ -60,9 +214,9 @@ main {
     width: 70px;
     height: 70px;
     padding: 3px;
-    background: linear-gradient(90deg, #d96fa7, #d96fa7);
+    background: linear-gradient(90deg, #65f8f3, #111111);
     border-radius: 50%;
-    box-shadow: 2px 2px 6px rgb(2, 2, 10);
+    box-shadow: 2px 2px 6px rgb(10, 215, 233);
     /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
     position: fixed;
     bottom: 20px;
@@ -72,7 +226,7 @@ main {
 
 
 .whatsapp-ico:hover {
-    box-shadow: 0px 5px 50px 0px #d96fa7 inset, 0px 5px 50px 0px #d96fa7, 0px 5px 50px 0px #d96fa7 inset, 0px 5px 50px 0px #d96fa7;
+    box-shadow: 0px 5px 50px 0px #09c3df inset, 0px 5px 50px 0px #97deeb, 0px 5px 50px 0px #77d1f0 inset, 0px 5px 50px 0px #16ccec;
 }
 
 .face {
@@ -100,10 +254,10 @@ main {
     content: '';
     width: 6px;
     height: 6px;
-    background: #E54;
+    background: rgb(255, 255, 255);
     border-radius: 50%;
     margin-left: 4px;
-    border: 2px solid #000;
+    border: 2px solid #0fe6df;
 }
 
 [data-semana].aberto::after {
