@@ -158,8 +158,6 @@ body {
 }
 
 .highlight {
-    position: absolute;
-    top: 0;
     left: 8%; /* Começa no meio */
     transform: translateX(-50%); /* Move metade da largura do elemento para a esquerda */
     width: 95px;
