@@ -30,7 +30,7 @@
 }
 
 #sobre .titulo-sobre {
-    background: url('/img/telazul.jpg'); 
+    background: url('//Portifolio/img/azul.2jpg.jpg'); 
     background-repeat: repeat;
     background-position: center;
     padding-top: 20%;
@@ -41,7 +41,7 @@
 #sobre .box-sobre {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 2px;
+    
     
     
 
@@ -84,7 +84,6 @@
 #sobre a {
     text-align: center;
     text-decoration: none;
-    padding: 8px 30px;
     border-radius: 30px;
     width: 100%;
     max-width: 250px;
